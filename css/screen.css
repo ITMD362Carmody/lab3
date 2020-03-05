@@ -6,33 +6,37 @@ optgroup,
 select,
 textarea
 {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
 }
 
 button,
-input { /* 1 */
+input
+{
   overflow: visible;
 }
 
 button,
-select { /* 1 */
+select
+{
   text-transform: none;
 }
 
 button,
-html [type="button"], /* 1 */
+html [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; /* 2 */
+[type="submit"]
+{
+  -webkit-appearance: button;
 }
 
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type="submit"]:-moz-focusring
+{
   outline: 1px dotted ButtonText;
 }
 
@@ -55,8 +59,8 @@ legend
 
 progress
 {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 textarea {
@@ -66,8 +70,8 @@ textarea {
 [type="checkbox"],
 [type="radio"]
 {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  padding: 0;
 }
 
 [type="number"]::-webkit-inner-spin-button,
@@ -94,12 +98,14 @@ textarea {
   font: inherit;
 }
 
-img, audio, video {
+img, audio, video
+{
   display: block;
   max-width: 100%;
 }
 
-html {
+html
+{
 	font-size: 1.375em
 	line-height: 1.182em;
 	padding: 1.182em;
