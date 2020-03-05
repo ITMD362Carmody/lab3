@@ -6,7 +6,7 @@ optgroup,
 select,
 textarea
 {
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -115,20 +115,23 @@ html
 label
 {
 	display: block;
+  font-family: impact;
+  color: black;
 }
 
 h1
 {
-	color: white;
-	font-size: 1.5em;
-	font-family:cursive;
+	color: black;
+	font-size: 2em;
+	font-family: impact;
 }
 
 p
 {
-	color: white;
+	color: black;
 	padding-top: 50px;
 	padding-bottom: 50px;
+  font-family: impact;
 }
 
 #input-email
@@ -149,25 +152,26 @@ p
 
 input
 {
-	background: #999999;
+	background: white;
 	border: none;
 }
 
 input[type=submit]
 {
-	background: #a2d5c6;
+	background: hotpink;
 	border: none;
-	border-radius: 10px;
-	width: 40%;
+	border-radius: 0px;
+	width: 25%;
+  font-family: impact;
 }
 
 body
 {
-	background: #d72631;
+	background: pink;
 	font-size: 1em;
-	font-family: verdana, arial, helvetica;
-	padding-left: 300px;
-	padding-right: 300px;
+	font-family: monospace;
+	padding-left: 0px;
+	padding-right: 0px;
 	text-align: center;
 	color: white;
 }
